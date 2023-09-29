@@ -6,3 +6,6 @@ h2 {
     background-color: blue;
     color: white;
 }
+#today {
+    border-bottom: : 10px dashed darkgreen;
+}
