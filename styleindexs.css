@@ -24,3 +24,8 @@ nav ul {
     justify-content: space-around;
     list-style-type:none;
 }
+
+nav ul li:hover {
+    color: yellow;
+    font-weight: bolder;
+}
