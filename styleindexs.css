@@ -27,5 +27,22 @@ nav ul {
 
 nav ul li:hover {
     color: yellow;
-    font-weight: bolder;
+    font-weight: bolder;   
+}
+
+#main-container{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#main-container div {
+    width: 30%;
+}
+
+footer {
+    background-color: #dedede;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #343434;
 }
