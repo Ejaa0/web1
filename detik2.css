@@ -1,0 +1,77 @@
+.detikbeut {
+    width: 13px;
+    padding: 0;
+}
+
+h1 {
+    padding: 0 200px;
+}
+
+#saskeh {
+    padding: 0 500px;
+}
+
+#xiaomi-14 {
+    width: 100%;
+    padding: 0px 200px 0px 200px;
+}
+
+#desc-pht {
+    padding: 0 200px;
+}
+
+.nav-sada {
+    background: linear-gradient(100deg,#562b77 30%,#aa248c 100%);
+    color: white;
+    padding: 1px;
+}
+
+nav ul {
+    list-style-type: nne;
+    justify-content: space-around;
+    display: flex;
+}
+
+.nav-sada ul li:hover {
+    color: rgb(250, 186, 23);
+    font-weight: bolder;
+} 
+
+.nav-dua {
+    background-color: rgba(189, 196, 182, 0.62);
+    padding: 1px;
+    color: black
+}
+
+.nav-dua ul li:hover {
+    color: #562b77;
+    font-weight: bolder;
+}
+
+.nav-dua ol {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+#main-container {
+    margin-top: 10px;
+    text-align: justify;
+    justify-content: space-around;
+}
+
+.deni {
+    font-weight: bolder;
+    text-transform: lowercase;
+    margin: 25px 0px 1px 2px;
+    padding: 5px 5px 5px 5px;
+    
+    background-color: #dedede;
+    color: black;
+    border: 2px solid black;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+
+

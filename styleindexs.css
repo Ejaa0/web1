@@ -5,12 +5,8 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header {
-    background-color: #cdcdcd;
-    padding: 20px;
-    font-size: 30px;
-    font-weight: bolder;
-    text-align: center;
+img {
+    width: 200%;
 }
 
 nav {
@@ -41,9 +37,7 @@ nav ul li:hover {
     width: 30%;
 }
 
-main img {
-    width: 100%;
-}
+
 
 #main-container div img {
     width: 100%;
@@ -56,4 +50,10 @@ footer {
     text-align: center;
     padding: 20px;
     border-top: 1px solid #343434;
+}
+
+#copyright {
+    border-top: 1px solid black;
+    text-align: center;
+    padding: 20px
 }
