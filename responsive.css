@@ -9,6 +9,7 @@ header {
     background-color: #cdcdcd;
     text-align: center;
     padding: 40px;
+    
 }
 
 footer {
@@ -16,4 +17,12 @@ footer {
     color: white;
     padding: 20px;
     text-align: center;
+}
+
+main {
+    display: flex;
+}
+
+main img {
+    width:100%;
 }
