@@ -14,9 +14,14 @@
 
     <button onmouseout="functionOnmouseout()">onmouseout</button>
 
+    
+    
     <button onkeydown="functionOnkeydown()">onkeydown</button>
 
     <button onload="functionOnload()"onload>onload</button>
+    <br><br>
+    <!--Onkeydown-->
+    Name : <input type="text"id="name" onkeydown="functionOnkeydown()">
 
     
     <script>
@@ -33,7 +38,8 @@
         }
 
         function functionOnkeydown () {
-            console.log("This is onkeydown")
+            console.log("You pressed a ket")
+            document.getElementById("name").style.borderColor="red";
         }
 
         function functionOnload () {
