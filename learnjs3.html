@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn JS part 3</title>
+</head>
+
+<body>
+    <h1>Learn JS part 3</h1>
+
+
+
+    <script>
+        //create an object named with this properties:
+        //Name , NIM , Religion, Address (fill these with your info)
+        //Display the data below :
+        const student = {
+            name: "Rhesa Ivander",
+            NIM: "228204",
+            major: "Information System",
+            religion: "Adventist",
+            address: "Kampus UNAI"
+        }
+
+    </script>
+<!-- Display the data/value below :-->
+<p>Name : <script>document.write(student.name)</script></p>
+<p>NIM : <span id="nim"></span></p>
+<p>Major : Information System</p>
+<p>Religion : Adventist</p>
+<P>Address : Kampus UNAI</P>
+
+    <script>
+        document.getElementById("nim").innerHTML = student.NIM
+
+    </script>
+
+</body>
+
+</html>
